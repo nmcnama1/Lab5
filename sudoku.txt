@@ -1,3 +1,17 @@
+
+Lab assignment summary: Sudoku is a popular puzzle where a player completes a grid (see below) based on some
+(but not all) cells provided. The challenge is to find the values of the unknown cells.
+Rules:
+A traditional Sudoku puzzle is either a 4x4, 9x9 or 16x16 grid. In the case of a 9x9
+numeric puzzle, a solved puzzle has the following three properties:
+• Every column contains the symbols 1–9 exactly once
+• Every row contains the symbols 1–9 exactly once
+• Each of the 3x3 minigrids contains the symbols 1–9 exactly once.
+
+Puzzles will be composed of 9 lines, each of which contains 9 values separated by a
+space. For purposes of our software, values are either 1–9 (filled) or 0 (empty).
+A sample puzzle based on Figure 1 (previous page) is encoded below:
+
 0 3 2 0 0 8 9 1 4
 0 0 0 0 0 0 0 0 3
 0 0 7 1 0 0 0 2 6
@@ -7,16 +21,3 @@
 0 0 0 0 0 0 0 0 0
 0 0 0 0 4 0 5 0 8
 8 0 0 6 0 7 0 0 0
-Part 1: Getting started with BitBucket / Github
-1. Sign up for Github or Bitbucket. Last year Github was easier to use from the lab
-computers, but either should be fine this term.
-2. Follow the tutorial on your choice, and ask TAs if you have questions. We will try
-and provide some input prior to the lab period but feel as if the Linux-based
-tutorials below are well done and definitely the place to start:
-• Git: https://help.github.com/articles/set-up-git/
-• Bitbucket: https://www.atlassian.com/git/tutorials/setting-up-a-repository
-3. Upload a brief description of this lab assignment and the Sudoku puzzle above to
-a new, public project prior to check out. NOTE: We will check again during
-grading to ensure you have set up a simple online repository, which will be
-invaluable as you start your final projects.
-4. If you have time, please continue to the Sudoku game portion of lab.
